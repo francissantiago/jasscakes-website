@@ -2,6 +2,7 @@ import { Routes, Route } from 'react-router-dom';
 import { MainLayout } from './components/layout/MainLayout';
 import Home from './pages/Home';
 import { Suspense, lazy } from 'react';
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 // Lazy load other pages
 const ProductList = lazy(() => import('./pages/ProductList'));
